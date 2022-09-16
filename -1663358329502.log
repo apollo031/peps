@@ -1,0 +1,90 @@
+​ [AppStore] loading 23 repositories from store
+​ [AppStore] found account: apollo031 (apollo031)
+​ Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.014s)
+​ Subscribed 'apollo031' to Alive channel
+​ Executing getRemotes: git remote -v (took 22.994s)
+​ [BranchPruner] Last prune took place 2 hours ago - skipping
+​ App ready time: 16819.786900000647ms
+​ Load time: 66736.90460000001ms
+​ Renderer ready time: 35040.09999999963ms
+​ Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(author)%00%(symref)%00 refs/heads refs/remotes (took 10.877s)
+​ Executing getSymbolicRef: git symbolic-ref -q refs/remotes/origin/HEAD (took 10.972s)
+​ Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 10.487s)
+​ launching: 3.0.7 (Windows 10.0.19044)
+​ execPath: 'C:\Users\micha\AppData\Local\GitHubDesktop\app-3.0.7\GitHubDesktop.exe'
+​ Executing getSymbolicRef: git symbolic-ref -q refs/remotes/origin/HEAD (took 1.211s)
+​ Executing getConfigValueInPath: git config -z pull.rebase (took 1.127s)
+install.ts:28 Executing installGlobalLFSFilter: git lfs install --skip-repo (took 2.351s)
+install.ts:28 [AppStore.withAuthenticatingUser] account found for repository: peps - apollo031 (has token)
+install.ts:28 Executing getCommits: git log origin/main..main --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.288s)
+install.ts:28 Stats reported.
+install.ts:28 Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 2.913s)
+install.ts:28 Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 2.926s)
+install.ts:28 Executing getRemotes: git remote -v (took 2.939s)
+install.ts:28 Executing getAllTags: git show-ref --tags -d (took 1.139s)
+install.ts:28 Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=0 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 7.247s)
+install.ts:28 Executing getCommits: git log 87332a9e399cf102f7bfe40590ad894db33decca --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.754s)
+install.ts:28 Executing getChangesFiles: git log 68160887c2a4ed903e2326da9a317d0c74b5d0c3 -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 2.830s)
+install.ts:28 Executing setRemoteURL: git remote set-url origin https://github.com/apollo031/peps.git (took 2.155s)
+install.ts:28 Executing addRemote: git remote add upstream https://github.com/python/peps.git (took 1.590s)
+install.ts:28 Executing getRemotes: git remote -v (took 1.014s)
+install.ts:28 Executing getRemotes: git remote -v (took 1.209s)
+install.ts:28 Executing getRemotes: git remote -v (took 1.488s)
+install.ts:28 Executing checkoutBranch: git -c credential.helper= checkout --progress origin/gh-pages -b gh-pages -- (took 41.134s)
+install.ts:28 Executing getCommits: git log 2ff9af3314a92a30e6aa35645d8a4da389e87948 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 12.441s)
+install.ts:28 Executing getConfigValueInPath: git config -z pull.rebase (took 2.278s)
+install.ts:28 Executing getSymbolicRef: git symbolic-ref -q refs/remotes/origin/HEAD (took 2.344s)
+install.ts:28 Executing getCommits: git log e48575ca68fc68e86d0ec94761df76824c06bdef --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 3.002s)
+install.ts:28 [BranchPruner] Last prune took place 12 seconds ago - skipping
+install.ts:28 [Timing] Action 'checkout branch from list' for 'python/peps' took 51.750s
+install.ts:28 Executing getCommits: git log origin/main..main --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.402s)
+install.ts:28 Executing getRemotes: git remote -v (took 1.392s)
+install.ts:28 Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.263s)
+install.ts:28 Executing getCommits: git log HEAD --date=raw --max-count=100 --skip=0 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.559s)
+install.ts:28 Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.289s)
+install.ts:28 Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.288s)
+install.ts:28 Executing getStashEntries: git log -g -z --pretty=%gD%x1F%H%x1F%gs refs/stash (took 1.303s)
+install.ts:28 Executing getRemotes: git remote -v (took 1.324s)
+install.ts:28 Executing getAllTags: git show-ref --tags -d (took 1.453s)
+install.ts:28 Executing getCommits: git log 81ecfa3d2b9323a1d953ae5efe12df6b1fca51b7 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.306s)
+api.github.com/repos/nyilynnhtwe/professional-programming:1          Failed to load resource: the server responded with a status of 404 ()
+install.ts:24 fetchRepository: 'nyilynnhtwe/professional-programming' returned a 404
+warn @ install.ts:24
+install.ts:28 Executing getChangesFiles: git log 9fdd15fa05c6e64203b4a5a7c0ad8ebf87198e7a -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 11.918s)
+install.ts:28 Executing getChangesFiles: git log 9fdd15fa05c6e64203b4a5a7c0ad8ebf87198e7a -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 12.530s)
+install.ts:28 Executing getChangesFiles: git log 9fdd15fa05c6e64203b4a5a7c0ad8ebf87198e7a -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 7.852s)
+install.ts:28 Executing getCommits: git log 8f332778240a9c794f10eadc3067225efe61244b --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 2.013s)
+install.ts:28 [BranchPruner] Last prune took place 42 seconds ago - skipping
+install.ts:28 Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 1.942s)
+install.ts:28 Executing getChangesFiles: git log 9fdd15fa05c6e64203b4a5a7c0ad8ebf87198e7a -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 26.079s)
+install.ts:28 [Timing] Action 'create commit' for 'apollo031/peps' took 15.918s
+install.ts:28 [Timing] Action 'create commit' for 'apollo031/peps' took 16.079s
+install.ts:28 [Timing] Action 'create commit' for 'apollo031/peps' took 16.721s
+install.ts:28 [Timing] Action 'create commit' for 'apollo031/peps' took 15.721s
+install.ts:28 Executing unstageAll: git reset -- . (took 2.149s)
+install.ts:28 Executing getCommits: git log 1642919e3e79de65de91d952c108bb0d718db573 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 2.766s)
+install.ts:28 Executing getCommits: git log 94a2fed335c305f06b1138f4afd7ca0c07d82525 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 12.179s)
+install.ts:28 Executing getCommits: git log 8048fe9d63305bbfeda252ebac513b1146d4b1bc --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 8.175s)
+install.ts:28 Executing getConfigValueInPath: git config -z pull.rebase (took 1.082s)
+install.ts:28 Executing getCommits: git log f18c44b0668ef8e40d14d79780558521b2c02304 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 13.661s)
+install.ts:28 [AppStore.withAuthenticatingUser] account found for repository: peps - apollo031 (has token)
+install.ts:28 Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 10.471s)
+install.ts:28 Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.008s)
+install.ts:28 Executing getCommits: git log 0bbce9557520a1ea016aaa45c8123aad2f705dd9 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.940s)
+install.ts:28 Executing fetch: git -c credential.helper= fetch --progress --prune upstream (took 1.246s)
+install.ts:28 Executing getCommits: git log c3fa61a05fda030c867d5eb46fe916ea83851729 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 43.817s)
+install.ts:28 [AppStore.withAuthenticatingUser] account found for repository: ccxt - apollo031 (has token)
+install.ts:28 Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 25.482s)
+install.ts:28 Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.881s)
+install.ts:28 [AppStore.withAuthenticatingUser] account found for repository: peps - apollo031 (has token)
+install.ts:28 Executing merge-base: git merge-base gh-pages origin/gh-pages (took 1.667s)
+install.ts:28 Executing pull: git -c credential.helper= -c rebase.backend=merge pull --ff --progress origin (took 2.697s)
+install.ts:28 Executing getCommits: git log dd3f6c4cae7e3b15ce984dce8593ff7569650e24 --date=raw --max-count=1 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 3.733s)
+install.ts:28 [AppStore.withAuthenticatingUser] account found for repository: git - apollo031 (has token)
+install.ts:28 Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 13.622s)
+install.ts:28 [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/apollo031/peps.git - apollo031 (has token)
+install.ts:28 Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 431.030s)
+​ Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/apollo031/peps.git C:\Users\micha\Documents\GitHub\peps1 (took 89.693s)
+​ [AppStore] adding repository at C:\Users\micha\Documents\GitHub\peps1 to store
+​ [BranchPruner] Last prune took place 10 minutes ago - skipping
+​ Executing isUsingLFS: git lfs track (took 6.496s)
